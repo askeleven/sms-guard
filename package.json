@@ -1,6 +1,7 @@
 {
   "name": "@askeleven/sms-guard",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.askeleven/sms-guard",
   "description": "Check a text message before an agent (or a person) sends it: GSM-7 or UCS-2, segment count, the recipient's local time, shorteners and opt-out wording. Splits long messages. CLI, library, and MCP server. Zero dependencies.",
   "type": "module",
   "license": "MIT",
