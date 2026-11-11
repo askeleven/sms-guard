@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.askeleven/sms-guard",
+  "title": "SMS Guard",
+  "description": "Checks a text before sending: encoding, segments, quiet hours, opt-out wording.",
+  "repository": {
+    "url": "https://github.com/askeleven/sms-guard",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/askeleven/sms-guard",
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@askeleven/sms-guard",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ]
+    }
+  ]
+}
